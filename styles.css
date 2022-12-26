@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@100&family=Rubik+Vinyl&display=swap");
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: hsl(30deg, 38%, 92%);
+  max-width: 1440px;
+}
+body .wrap {
+  display: flex;
+  max-height: 900px;
+  max-width: 850px;
+  border-radius: 13px;
+  margin-top: 167px;
+}
+body .wrap .fotoMobile {
+  display: none;
+}
+body .wrap .foto {
+  width: 50%;
+  height: 436px;
+  border-radius: 12px 0 0 12px;
+}
+body .wrap section {
+  display: block;
+  width: 80%;
+  text-align: center;
+  width: 50%;
+  background-color: white;
+  border-radius: 0 12px 12px 0;
+}
+body .wrap section .mid h1 {
+  width: 42%;
+  text-align: initial;
+  padding: 22px;
+  position: relative;
+  right: 41px;
+  font-family: "Libre Baskerville", serif;
+}
+body .wrap section .mid p {
+  width: 62%;
+  letter-spacing: 2px;
+  text-align: initial;
+  font-size: 14px;
+}
+body .wrap section #topTitle {
+  position: relative;
+  letter-spacing: 5px;
+  margin-top: 32px;
+}
+body .wrap section button {
+  max-width: 250px;
+  height: 40px;
+  border-style: none;
+  color: white;
+  background-color: darkgreen;
+  border-radius: 5px;
+  position: relative;
+  left: -6px;
+  margin-top: 19px;
+  top: -20px;
+  cursor: pointer;
+  width: 249px;
+  height: 52px;
+}
+body .wrap section .price {
+  display: flex;
+  align-items: baseline;
+  width: 30%;
+  margin: 0 auto;
+  padding-right: 168px;
+}
+body .wrap section .price p {
+  font-size: 42px;
+  padding: 18px;
+  color: darkgreen;
+  font-family: "Libre Baskerville", serif;
+}
+body .wrap section .price span {
+  text-decoration: line-through;
+}
+body .attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 15px;
+  text-align: center;
+}
+body .attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+  body .wrap {
+    width: 375px;
+    display: block;
+  }
+  body .wrap .foto {
+    display: none;
+  }
+  body .wrap .fotoMobile {
+    display: block;
+    width: 375px;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+    top: 32px;
+  }
+  body .wrap section {
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    padding-top: 32px;
+  }
+  body .attribution {
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
